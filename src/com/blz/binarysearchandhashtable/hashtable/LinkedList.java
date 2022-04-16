@@ -1,6 +1,6 @@
 package com.blz.binarysearchandhashtable.hashtable;
-public class LinkedList<K> {
 
+public class LinkedList<K> {
     private Node<K> head;
     private Node<K> tail;
 
@@ -17,8 +17,8 @@ public class LinkedList<K> {
         return null;
     }
 
-    public void append(Node<K> myNode) {
 
+    public void append(Node<K> myNode) {
 
         if (this.head == null) {
             this.head = myNode;
