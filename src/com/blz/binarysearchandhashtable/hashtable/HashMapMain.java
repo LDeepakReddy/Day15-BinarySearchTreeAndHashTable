@@ -20,6 +20,7 @@ public class HashMapMain {
             }
             hashMap.add(word, value);
         }
+        hashMap.remove("avoidable");
         System.out.println(hashMap);
     }
 }
