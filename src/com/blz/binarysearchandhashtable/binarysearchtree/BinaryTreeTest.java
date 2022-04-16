@@ -22,6 +22,13 @@ public class BinaryTreeTest {
         int size = myBinaryTree.getSize();
         System.out.println("Size is : " + size);
 
+        Integer result = myBinaryTree.searchKey(63);
+
+        if (result == 1)
+            System.out.println("key found");
+        else
+            System.out.println("key not found");
     }
+
 }
 
